@@ -44,7 +44,7 @@ public class B_tree {
 		if(has_right) {
 			nn.right=cons(nn,false);
 		}
-		
+		return nn;
 		
 	}
 }
